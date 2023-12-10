@@ -4,4 +4,5 @@ export interface ITask {
     title: string,
     body: string
     status: string
+    completed?: boolean
 }

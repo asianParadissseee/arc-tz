@@ -22,7 +22,7 @@ export const routeConfig: Record<AppRoutes, RouteProps> = {
         element: <Home/>
     },
     [AppRoutes.FORM_PAGE]: {
-        path: RoutePath.home,
+        path: RoutePath.form,
         element: <FormPage/>
     },
     [AppRoutes.TASKS_PAGE]: {

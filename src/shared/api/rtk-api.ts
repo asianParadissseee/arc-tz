@@ -6,5 +6,6 @@ export const rtkApi = createApi({
     baseQuery: fetchBaseQuery({
         baseUrl: API_URL,
     }),
+    refetchOnFocus: true,
     endpoints: () => ({})
 })

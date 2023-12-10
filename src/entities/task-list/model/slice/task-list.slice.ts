@@ -12,4 +12,7 @@ export const TaskListSlice = createSlice({
     reducers: {}
 })
 
-export const {actions, reducer: TasksListReducer} = TaskListSlice
+export const {
+    actions, reducer:
+        TasksListReducer
+} = TaskListSlice
