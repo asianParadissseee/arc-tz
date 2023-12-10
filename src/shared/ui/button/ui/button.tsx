@@ -9,7 +9,7 @@ const Button: FC<ButtonProps> = memo((props) => {
 
     const {children, ...otherProps} = props
     return (
-        <button className={""} {...otherProps}>
+        <button className="bg-gradient-to-b from-gray-900 via-purple-900 to-violet-600 rounded text-white p-3" {...otherProps}>
             {children}
         </button>
     );

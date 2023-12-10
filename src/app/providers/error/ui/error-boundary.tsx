@@ -1,6 +1,6 @@
 import {Component, ErrorInfo, ReactNode, Suspense} from 'react';
 import {ErrorContent} from "@/widgets/error-content";
-import {Loader} from "@/shared/ui/loader";
+import {PageLoader} from "@/widgets/page-loader";
 
 type ErrorBoundaryProps = {
     children: ReactNode;
@@ -34,7 +34,7 @@ class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
     render(): ReactNode {
         if (this.state.hasError) {
             return (
-                <Suspense fallback={<Loader/>}>
+                <Suspense fallback={<PageLoader/>}>
                     <ErrorContent/>
                 </Suspense>
             );

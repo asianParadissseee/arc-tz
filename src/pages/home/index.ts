@@ -1,5 +1,5 @@
-import Home from "./ui/home.tsx";
+import {HomeAsync} from "./ui/home.async.tsx";
 
 export {
-    Home
+    HomeAsync as Home
 }

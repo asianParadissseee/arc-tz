@@ -1,10 +1,13 @@
+import {Fragment} from "react";
+import {Text} from "@/shared/ui/text";
+
 const Home = () => {
     return (
-        <main>
-            <h1 className={"text-3xl font-bold underline"}>
-                Home
-            </h1>
-        </main>
+        <Fragment>
+            <Text isHeader={true}>
+                Hello, this is a Home page
+            </Text>
+        </Fragment>
     );
 };
 
